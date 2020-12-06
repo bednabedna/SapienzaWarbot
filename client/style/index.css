@@ -1,0 +1,102 @@
+/* style sheet for index */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 100% !important;
+  }
+  .col-console {
+    padding-top: 100px;
+    padding-right: 5%;
+  }
+  .stat-margin {
+    margin: 30px 10px 5px 0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .stat-margin {
+    margin: -90px 10px 5px 0px;
+  }
+}
+
+body {
+  background-color: #822334 !important;
+  overflow-x: hidden !important;
+  background-size: 100%;
+}
+
+.console {
+  background-image: url("../assets/images/console.png");
+  background-repeat: no-repeat;
+  border-radius: 0px 7px 0px 0px;
+  width: 100%;
+  height: 700px;
+  margin-right: 10px;
+  padding-top: 25px;
+  padding-left: 5px;
+}
+.log {
+  overflow-y: scroll;
+  height: 530px;
+  padding-left: 13px;
+  font-size: 13px;
+  font-family: consoleFont;
+}
+
+.jumbotron {
+  margin: 7px 10px 0px 3px;
+}
+
+#countdown {
+  color: red;
+  font-size: 15px;
+  margin: auto;
+}
+
+.stat {
+  background-image: url("../assets/images/stats.png");
+  background-repeat: no-repeat;
+  border-radius: 5px 11px 5px 9px;
+  width: 100%;
+  height: 175px;
+  padding-top: 30px;
+  padding-left: 13px;
+  font-size: 13px;
+  font-family: consoleFont;
+}
+.statText {
+  line-height: 250%;
+}
+
+.selected {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.btn-custom {
+  max-width: 250px !important;
+  width: 100% !important;
+  height: 140px !important;
+}
+
+@font-face {
+  font-family: consoleFont;
+  src: url('../assets/fonts/SFMono-Regular.otf');
+}
+
+
+table {
+  margin-top: 20px;
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+
+td:first-child {
+  text-align: left;
+}
+
+.sapienza-toast {
+  position: fixed;
+}
